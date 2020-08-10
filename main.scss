@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700');
+
+$color-black: #333;
+$color-white: #eee;
+$color-primary: #f43387;
+$color-primary-light: #f463b7;
+$color-primary-dark: #d42367;
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-black;
+  
+  box-sizing: border-box;
+}
+
+.header {
+  height: 10vh;
+  background-color: mix(#f3d174, #6d65da, 0.8);
+  background-size: cover;
+  background-position: top;
+  
+  
+    &__heading-primary {
+      text-align: center;
+      color: $color-white;
+      font-size: 3.5rem;
+    }
+}
+
+.content {
+  height: 70vh;
+  background: linear-gradient(to right,
+    rgba($color-primary-light, .8),
+    rgba($color-primary-dark, .8)),
+    url('http://lorempixel.com/1200/800/sports/');
+}
+
+.footer {
+  height: 20vh;
+  background-color: rebeccapurple;
+
+    &__list-primary {
+        background-color: yellow;
+
+        &__button-auto_garage {
+            background-color: tomato;
+
+
+
+            &__steering {
+                background-color: skyblue;
+            }
+        }
+    }
+}
+
+img {
+    width: 10%;
+    height: 10%;
+}
