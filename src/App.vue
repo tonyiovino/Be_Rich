@@ -3,6 +3,9 @@
     <router-link to="/">Home</router-link> 
   </nav>
   <router-view/>
+  <footer>
+    <router-link to="/car-garage">Upgardes</router-link>
+  </footer>
 </template>
 
 <style>

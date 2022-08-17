@@ -1,6 +1,7 @@
 import { createStore } from 'vuex'
 
 import money from './modules/money'
+import car_garage from './modules/car_garage'
 
 export default createStore({
   state: {},
@@ -8,6 +9,7 @@ export default createStore({
   mutations: {},
   actions: {},
   modules: {
-    money
+    money,
+    car_garage
   }
 });

@@ -1,2 +1,6 @@
-@import 'typography.scss';
-@import 'variables.scss';
+@import 'abstracts/variables';
+
+@import 'base/animations';
+@import 'base/typography';
+
+@import 'layout/input';
