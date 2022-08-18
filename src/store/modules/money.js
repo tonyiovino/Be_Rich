@@ -1,8 +1,8 @@
 const state = {
     money: {
-        available: 0,
+        available: 110,
         spent: 0,
-        increase: 1,
+        by_click: 1,
     }
 }
 
@@ -26,8 +26,9 @@ const actions = {
     },
 
     updateMoneySpent(ctx, payload) {
-        const newMoney = ctx.getters.getMoney.spent + payload
-        ctx.commit('update_money_spent', newMoney)
+        const newMoneySpent = ctx.getters.getMoney.spent + payload.spent
+        ctx.commit('update_money_spent', newMoneySpent)
+        ctx.commit('update_money_available', payload.available)
     }
 }
 

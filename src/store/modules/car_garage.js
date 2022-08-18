@@ -3,19 +3,22 @@ const state = {
         '1':{
             name: 'panda',
             available: 0,
-            price: 1
+            price: 1,
+            gain_price: 1,
         },
 
         '2':{
             name: 'toyota',
             available: 0,
             price: 10,
+            gain_price: 1,
         },
 
         '3':{
             name: 'lancia',
             available: 0,
             price: 50,
+            gain_price: 1,
         },
     }
 }

@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss">
 .page {
-	min-height: 100vh;
+	min-height: 90vh;
 
 	&__header {
 		width: 50vw;

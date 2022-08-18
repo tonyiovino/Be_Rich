@@ -13,7 +13,15 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (upgrades.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "upgrades" */ '../views/Car_Garage.vue')
+    component: () => import(/* webpackChunkName: "upgrades" */ '../views/CarGarage.vue')
+  },
+  {
+    path: '/properties-areas',
+    name: 'properties_areas',
+    // route level code-splitting
+    // this generates a separate chunk (upgrades.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "upgrades" */ '../views/PropertiesAreas.vue')
   }
 ]
 
